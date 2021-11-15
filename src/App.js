@@ -1,5 +1,6 @@
 import React from 'react';
 // import Navbar from './components/navbar';
+import Navbar from './components/navbar';
 import Pizza from './components/pizza';
 import Menu from './components/menu';
 import './App.css';
@@ -7,7 +8,8 @@ import './App.css';
 function App() {
   return(
     <div className="App">
-      <Pizza/>
+     <Navbar/>
+     <Pizza/>
       <Menu/>
     </div>
   );

@@ -3,8 +3,13 @@
   background: url(../images/pizza-splash.jpg);
   background-size: cover;
   background-position: center;
+  text-align:center;
+  font-family: bold;
+
+  
 }
 
 .Pizza .header-text {
   padding-top: 8%;
+  font-family: Copperplate;
 }
