@@ -2,7 +2,7 @@ import React from 'react';
 import plain from './images/plain.jpg';
 import './css/slice.css';
 
-function Plain() {
+function Plain(props) {
   return(
     <div className="Plain col-4">
       <div className="card">
